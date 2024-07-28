@@ -42,7 +42,7 @@ if [ "${OSTYPE:-}" = "cygwin" ] || [ "${OSTYPE:-}" = "msys" ] ; then
     export VIRTUAL_ENV=$(cygpath "c:\Users\Patel\Desktop\Capstone Project\xrwvm-fullstack_developer_capstone\server\djangoenv")
 else
     # use the path as-is
-    export VIRTUAL_ENV="C:\Users\Patel\Desktop\Capstone Project\xrwvm-fullstack_developer_capstone\server\djangoenv"
+    export VIRTUAL_ENV="c:\Users\Patel\Desktop\Capstone Project\xrwvm-fullstack_developer_capstone\server\djangoenv"
 fi
 
 _OLD_VIRTUAL_PATH="$PATH"
